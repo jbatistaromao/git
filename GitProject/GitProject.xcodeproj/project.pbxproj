@@ -14,6 +14,7 @@
 		FC1276F6236B543B00772855 /* GitProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC1276F4236B543B00772855 /* GitProject.xcdatamodeld */; };
 		FC1276F8236B543E00772855 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1276F7236B543E00772855 /* Assets.xcassets */; };
 		FC1276FB236B543E00772855 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1276F9236B543E00772855 /* LaunchScreen.storyboard */; };
+		FC127707236B58D000772855 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC127706236B58D000772855 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FC1276F7236B543E00772855 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC1276FA236B543E00772855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC1276FC236B543E00772855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC127706236B58D000772855 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				FC1276F9236B543E00772855 /* LaunchScreen.storyboard */,
 				FC1276FC236B543E00772855 /* Info.plist */,
 				FC1276F4236B543B00772855 /* GitProject.xcdatamodeld */,
+				FC127706236B58D000772855 /* Model.swift */,
 			);
 			path = GitProject;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC127707236B58D000772855 /* Model.swift in Sources */,
 				FC1276F0236B543B00772855 /* ViewController.swift in Sources */,
 				FC1276EC236B543B00772855 /* AppDelegate.swift in Sources */,
 				FC1276F6236B543B00772855 /* GitProject.xcdatamodeld in Sources */,
